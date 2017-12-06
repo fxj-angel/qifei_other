@@ -1,0 +1,69 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+html{font-size: 62.5%;}
+body,button,input,select,textarea{font-size:12px;font-family:'Microsoft Yahei','微软雅黑'}
+small{font-size:12px}
+ul,ol{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none;}
+img{border:0}
+.left{float:left}
+.right{float:right}
+.overflow{overflow:hidden}
+.hide{display:none}
+.block{display:block}
+.inline{display:inline}
+button{cursor:pointer}
+body{position:relative}
+td{text-align:left}
+img{border:0}
+.clear:after{content:'';display:block;clear:both;}
+th,strong,var,em,i{font-weight: normal;font-style: normal;}
+button{outline:none;}
+/***********nav***************/
+.navbar{margin-bottom: 0;border:none;}
+.navbar-default{background:#000;}
+.nav_left{margin:15px 40px 0 0;cursor:pointer;}
+.nav_left span{display:block;width:30px;height:3px;background:#8f8f8f;border-radius:2px;}
+.nav_left span:nth-child(2){width:24px;margin:5px 0;}
+.nav_left span:last-child{width:18px;}
+.navbar-brand{margin-top:6px;width:198px;height:44px;background:url(../bage-img/logo.png) no-repeat;background-size: 100% 100%;}
+.navbar-left li{margin:0 10px;}
+#nav .navbar-left a{font-size:1.4rem;color:#8f8f8f;padding-bottom:10px;border-bottom:5px solid transparent;}
+#nav .navbar-left a:hover{border-bottom:5px solid #ff0000;}
+.navbar-right span{font-size:2rem;color:#8f8f8f;margin-top:12px;}
+/***************侧边栏***************/
+#aside{width:370px;height:100%;position:absolute;top:0;left:-370px;bottom:0;z-index:9999;}
+/*aside-top*/
+.aside-top{background:#000;width:100%;height:50px;}
+.aside-top img{width:40%;margin-left:30%;margin-top:12px;}
+.aside-top span{font-size:3rem;color:#8f8f8f;position:absolute;right:20px;top:4px;cursor: pointer;}
+/*aside-nav*/
+.aside-nav{background:url(../bage-img/aside-bg.jpg) no-repeat;width:100%;height:90%;padding:20px;}
+.aside-nav li{position:relative;}
+.aside-nav a{display:block;width:100%;padding:10px 0 12px 0;color:#fff;font-size:1.4rem;border-bottom:1px solid rgba(255,255,255,.1);}
+.aside-nav a:hover{color:#fff;}
+.aside-nav li span{color:#ff0000;position:absolute;right:0;top:0;font-weight:bold;font-size:3rem;cursor:pointer;}
+.aside-nav .total>li:last-child a{border-bottom: none;}
+.aside-nav li ul{padding-left:20px;display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    /*nav*/
+    .head-logo{height:50px;}
+    .navbar-right{display: none;}
+    .navbar-brand{width:315px;height:50px;}
+}
